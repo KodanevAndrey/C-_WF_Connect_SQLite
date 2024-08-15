@@ -117,7 +117,7 @@
             this.btnAddImageDB.Name = "btnAddImageDB";
             this.btnAddImageDB.Size = new System.Drawing.Size(75, 23);
             this.btnAddImageDB.TabIndex = 18;
-            this.btnAddImageDB.Text = "Add Imade";
+            this.btnAddImageDB.Text = "Add Image";
             this.btnAddImageDB.UseVisualStyleBackColor = true;
             this.btnAddImageDB.Click += new System.EventHandler(this.btnAddImageDB_Click);
             // 

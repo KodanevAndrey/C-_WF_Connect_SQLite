@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\",
+  "WorkspaceRootPath": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\formcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\formcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\formimageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\formimageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\connectsqlite_kodanevandrey\\formcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\formcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\formcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\connectsqlite_kodanevandrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|e:\\myproject_vs_c#\\connectsqlite\\connectsqlite_kodanevandrey\\connectsqlite_kodanevandrey\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\connectsqlite_kodanevandrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9813EFD6-C46A-4D95-84AE-81008C70ED93}|ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey.csproj|solutionrelative:connectsqlite_kodanevandrey\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,55 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormCreateDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
+              "DocumentIndex": 2,
+              "Title": "FormCreateDB.cs",
+              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
               "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
-              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\FormCreateDB.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
+              "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:01:31.63Z",
+              "WhenOpened": "2024-08-15T15:20:54.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormImageView.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormImageView.cs",
+              "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\FormImageView.cs",
+              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormImageView.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\FormImageView.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T14:50:44.036Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs",
               "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\Form1.cs",
-              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs",
+              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T13:34:54.194Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs",
+              "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\Form1.cs",
+              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\Form1.cs",
               "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD0AAABXAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAkwDUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T16:41:32.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormCreateDB.cs",
-              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
-              "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
-              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
-              "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\FormCreateDB.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:02:11.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DBHelper.cs",
-              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\DBHelper.cs",
+              "DocumentMoniker": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\DBHelper.cs",
               "RelativeDocumentMoniker": "ConnectSQLite_KodanevAndrey\\DBHelper.cs",
-              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\DBHelper.cs",
+              "ToolTip": "E:\\MyProject_VS_C#\\ConnectSQLite\\ConnectSQLite_KodanevAndrey\\ConnectSQLite_KodanevAndrey\\DBHelper.cs",
               "RelativeToolTip": "ConnectSQLite_KodanevAndrey\\DBHelper.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAkwFMAAAAXAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAADwv0MAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T09:55:56.938Z",
               "EditorCaption": ""

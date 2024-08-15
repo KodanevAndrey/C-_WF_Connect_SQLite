@@ -12,6 +12,7 @@ using System.IO;
 using System.Data.Entity.Infrastructure;
 using System.Data.OleDb;
 using System.Data.Common;
+using System.Windows.Input;
 
 
 namespace ConnectSQLite_KodanevAndrey
@@ -44,7 +45,7 @@ namespace ConnectSQLite_KodanevAndrey
                     m_dbConn.Open();
                     m_sqlCmd.Connection = m_dbConn;
                     m_sqlCmd.CommandText = "CREATE TABLE IF NOT EXISTS " + TableName + "(";
-                    for(int i = 0; i < listColumns.Count; i++)
+                    for (int i = 0; i < listColumns.Count; i++)
                     {
                         m_sqlCmd.CommandText += listColumns[i];
                         if (i != listColumns.Count - 1) m_sqlCmd.CommandText += ", ";
@@ -464,7 +465,7 @@ namespace ConnectSQLite_KodanevAndrey
                 } 
                     try
                     {
-                        m_sqlCmd.CommandText = "UPDATE Users SET "+SelectName+" = '" + image + "' WHERE " + TableSelectColumnName + " = ";
+                        m_sqlCmd.CommandText = "UPDATE "+TableNameDB+" SET "+SelectName+" = '" + image + "' WHERE " + TableSelectColumnName + " = ";
                         if (TableSelectCellName != "NULL") 
                         {
                         m_sqlCmd.CommandText += "'" + TableSelectCellName + "'";
@@ -484,14 +485,40 @@ namespace ConnectSQLite_KodanevAndrey
             }
             else { lbStatusText.Text = "выберите изображение!"; lbStatusText.ForeColor = Color.Red; }
         }
-
+        /*
+        public void ReadImageDB(Label lbStatusText, Label lbCommand, DataGridView dgvViewer)
+        {
+            m_sqlCmd.CommandText = "SELECT * FROM Chapter WHERE id ='" + id + "'";
+            DataTable dTable = new DataTable();
+            String sqlQuery;
+            if (m_dbConn.State != ConnectionState.Open)
+            {
+                MessageBox.Show("Open connection with database");
+                return;
+            }
+            try
+            {
+                SQLiteDataReader r = m_sqlCmd.ExecuteReader();
+                r.Read();
+                MemoryStream stmBLOBData = new MemoryStream((byte[])r["img"]);
+                pbFoto.Image = Image.FromStream(stmBLOBData);
+                pbFoto.Refresh();
+                r.Close();
+                r.Dispose();
+            }
+            catch (SQLiteException ex)
+            {
+                MessageBox.Show("Error ReadDB: " + ex.Message);
+            }
+        }
+        */
         public bool CheckToInt(in object cell)
         {
             int CountTypeInt = 0;
             string Value = cell.ToString();
             for (int i = 0; i < Value.Length; i++)
             {
-                for (char j = '0'; j <= '9'; j++) 
+                for (char j = '0'; j <= '9'; j++)
                 {
                     if (Value[i] == j) { CountTypeInt++; break; }
                 }
@@ -499,6 +526,6 @@ namespace ConnectSQLite_KodanevAndrey
             if (CountTypeInt == Value.Length) return true;
             else return false;
         }
-        
+
     }
 }
