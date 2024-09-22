@@ -22,6 +22,7 @@ namespace ConnectSQLite_KodanevAndrey
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(500, 300);
             this.MaximizeBox = false;
+            //listColumns.Add(" _id INTEGER PRIMARY KEY AUTOINCREMENT");
         }
 
         private void btnCreateDB_Click(object sender, EventArgs e)
@@ -35,8 +36,8 @@ namespace ConnectSQLite_KodanevAndrey
                     TableName = txtTableName.Text;
                     if(listColumns.Count > 0)
                     {
+                        //listColumns.Add("_time TEXT");
                         db.CreateNewDB(lbStatus, DBName, TableName, listColumns);
-                        Form1.Connect();
                         this.Close();
                     }
                     else lbStatus.Text = "создайте столбцы в таблице!";

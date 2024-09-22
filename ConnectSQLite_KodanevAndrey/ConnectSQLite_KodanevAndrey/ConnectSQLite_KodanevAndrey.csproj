@@ -84,6 +84,12 @@
     <Compile Include="FormImageView.Designer.cs">
       <DependentUpon>FormImageView.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSelectedOpenTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectedOpenTable.Designer.cs">
+      <DependentUpon>FormSelectedOpenTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormImageView.resx">
       <DependentUpon>FormImageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectedOpenTable.resx">
+      <DependentUpon>FormSelectedOpenTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

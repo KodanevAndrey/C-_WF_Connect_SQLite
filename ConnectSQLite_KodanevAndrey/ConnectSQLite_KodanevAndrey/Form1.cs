@@ -13,8 +13,8 @@ namespace ConnectSQLite_KodanevAndrey
 {
     public partial class Form1 : Form
     {
-        private bool isActive = false;
         private DBHelper db = new DBHelper();
+        private FormSelectedOpenTable form;
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +27,10 @@ namespace ConnectSQLite_KodanevAndrey
         {
             if (db.ConnectDB(lbStatusText))
             {
-                db.LoadCountTables(lbStatusText);
+                //db.LoadCountTables(lbStatusText);
+                form = new FormSelectedOpenTable(db);
+                form.ShowDialog();
+
                 db.GetTableInfo(lbStatusText);
                 db.LoadTableInfo(lbStatusText, dgvViewer);
                 db.ReadDB(lbStatusText, dgvViewer);
@@ -81,6 +84,8 @@ namespace ConnectSQLite_KodanevAndrey
         private void btnConnectDB_Click(object sender, EventArgs e)
         {
             Connect();
+            //form = new FormSelectedOpenTable(db);
+            //form.ShowDialog();
         }
 
         private void btnCreateNewDB_Click(object sender, EventArgs e)

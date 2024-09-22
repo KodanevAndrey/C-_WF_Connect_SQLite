@@ -17,9 +17,9 @@ using System.Windows.Input;
 
 namespace ConnectSQLite_KodanevAndrey
 {
-    internal class DBHelper 
+    public class DBHelper 
     {
-        private String dbFileName;
+        private string dbFileName;
         private string TableNameDB;
         private SQLiteConnection m_dbConn = new SQLiteConnection();
         private SQLiteCommand m_sqlCmd = new SQLiteCommand();
@@ -69,6 +69,10 @@ namespace ConnectSQLite_KodanevAndrey
 
         public bool ConnectDB( Label lbStatusText)
         {
+            DBTableColumnsTypeInt.Clear();
+            DBTableColumnsTypeText.Clear();
+            DBTableColumnsTypeBlob.Clear();
+            DBTableColumnsTypeNotBlob.Clear();
             bool Conected = false;
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.InitialDirectory = @"C\\";
@@ -101,7 +105,7 @@ namespace ConnectSQLite_KodanevAndrey
             return Conected;
         }
 
-        public void LoadCountTables(Label lbStatusText)
+        public void ReadCountTables(Label lbStatusText, ListBox listBox)
         {
             if (m_dbConn.State != ConnectionState.Open)
             {
@@ -116,7 +120,7 @@ namespace ConnectSQLite_KodanevAndrey
                     int tableCount = Convert.ToInt32(command.ExecuteScalar());
                     lbStatusText.Text = "Количество таблиц в базе данных: " + tableCount;
                 }
-                int i = 1;
+                int i = 0;
                 query = "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;";
 
                 using (var command = new SQLiteCommand(query, m_dbConn))
@@ -125,8 +129,7 @@ namespace ConnectSQLite_KodanevAndrey
                     {
                         while (reader.Read())
                         {
-                            lbStatusText.Text += " Имя таблицы №'"+i+"': " + reader["name"];
-                            if(i ==1) TableNameDB = reader["name"].ToString();
+                            listBox.Items.Add(reader["name"].ToString());  
                             i++;
                         }
                     }
@@ -136,6 +139,11 @@ namespace ConnectSQLite_KodanevAndrey
             {
                 MessageBox.Show("Error LoadCountTables: " + ex.Message);
             }
+        }
+
+        public void SelectedTable(ListBox listBox)
+        {
+            TableNameDB = listBox.SelectedItem.ToString();
             DataTable dTable = new DataTable();
             String sqlQuery = "SELECT * FROM " + TableNameDB + " ";
             adapter = new SQLiteDataAdapter(sqlQuery, m_dbConn);
@@ -317,7 +325,7 @@ namespace ConnectSQLite_KodanevAndrey
 
         public void DeleteDB(Label lbStatusText)
         {
-
+            /*
             DialogResult dialogResult = MessageBox.Show("Sure", "Some Title", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
@@ -327,7 +335,7 @@ namespace ConnectSQLite_KodanevAndrey
             {
                 //do something else
             }
-
+            */
 
             if (m_dbConn.State != ConnectionState.Open)
             {
@@ -376,7 +384,7 @@ namespace ConnectSQLite_KodanevAndrey
                     
                 lbStatusText.Text = m_sqlCmd.CommandText;
                 
-                ReadDB(lbStatusText, dgvViewer);
+                //ReadDB(lbStatusText, dgvViewer);
             }
             catch (SQLiteException ex)
             {

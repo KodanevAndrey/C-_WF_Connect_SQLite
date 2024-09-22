@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtTableName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCreateDB = new System.Windows.Forms.Button();
             this.listStringColums = new System.Windows.Forms.ListBox();
             this.txtColumnName = new System.Windows.Forms.TextBox();
             this.btnAddColum = new System.Windows.Forms.Button();
@@ -41,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lbStatus = new System.Windows.Forms.Label();
+            this.btnCreateDB = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtDBName
@@ -74,16 +74,6 @@
             this.label2.Size = new System.Drawing.Size(65, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Table Name";
-            // 
-            // btnCreateDB
-            // 
-            this.btnCreateDB.Location = new System.Drawing.Point(126, 377);
-            this.btnCreateDB.Name = "btnCreateDB";
-            this.btnCreateDB.Size = new System.Drawing.Size(100, 33);
-            this.btnCreateDB.TabIndex = 4;
-            this.btnCreateDB.Text = "Create Database";
-            this.btnCreateDB.UseVisualStyleBackColor = true;
-            this.btnCreateDB.Click += new System.EventHandler(this.btnCreateDB_Click);
             // 
             // listStringColums
             // 
@@ -159,6 +149,16 @@
             this.lbStatus.Size = new System.Drawing.Size(0, 13);
             this.lbStatus.TabIndex = 13;
             // 
+            // btnCreateDB
+            // 
+            this.btnCreateDB.Location = new System.Drawing.Point(126, 377);
+            this.btnCreateDB.Name = "btnCreateDB";
+            this.btnCreateDB.Size = new System.Drawing.Size(100, 33);
+            this.btnCreateDB.TabIndex = 4;
+            this.btnCreateDB.Text = "Create Database";
+            this.btnCreateDB.UseVisualStyleBackColor = true;
+            this.btnCreateDB.Click += new System.EventHandler(this.btnCreateDB_Click);
+            // 
             // FormCreateDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,12 +191,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTableName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnCreateDB;
         private System.Windows.Forms.ListBox listStringColums;
         private System.Windows.Forms.TextBox txtColumnName;
-        private System.Windows.Forms.Button btnAddColum;
         private System.Windows.Forms.CheckedListBox checkListColumnType;
+        private System.Windows.Forms.Button btnAddColum;
         private System.Windows.Forms.Button btnDeleteColum;
+        private System.Windows.Forms.Button btnCreateDB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbStatus;
