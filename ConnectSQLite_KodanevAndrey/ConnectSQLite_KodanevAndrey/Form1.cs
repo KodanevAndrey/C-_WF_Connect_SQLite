@@ -78,7 +78,7 @@ namespace ConnectSQLite_KodanevAndrey
 
         private void dgvViewer_Click(object sender, EventArgs e)
         {
-            db.SelectToTable(lbStatusText,dgvViewer);
+            db.SelectCellToTable(lbStatusText,dgvViewer);
         }
 
         private void btnConnectDB_Click(object sender, EventArgs e)
